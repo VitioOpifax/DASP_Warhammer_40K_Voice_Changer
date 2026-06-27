@@ -1,0 +1,27 @@
+{
+    "profile_name": "techpriest_mk2",
+    "pipeline": [
+        {
+            "block_name": "Feedback Delay",
+            "parameters": {
+                "delay_ms": 30.0,
+                "feedback": 0.4
+            }
+        },
+        {
+            "block_name": "Band-Pass Filter",
+            "parameters": {
+                "low_cut": 100.0,
+                "high_cut": 3500.0,
+                "order": 4.0
+            }
+        },
+        {
+            "block_name": "Ring Modulator",
+            "parameters": {
+                "mod_freq": 45.0,
+                "mix": 0.6
+            }
+        }
+    ]
+}

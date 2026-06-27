@@ -1,0 +1,26 @@
+{
+    "profile_name": "astartes",
+    "pipeline": [
+        {
+            "block_name": "Pitch Shift",
+            "parameters": {
+                "pitch_factor": 0.85
+            }
+        },
+        {
+            "block_name": "Band-Pass Filter",
+            "parameters": {
+                "low_cut": 150.0,
+                "high_cut": 4000.0,
+                "order": 4.0
+            }
+        },
+        {
+            "block_name": "Feedback Delay",
+            "parameters": {
+                "delay_ms": 20.0,
+                "feedback": 0.75
+            }
+        }
+    ]
+}

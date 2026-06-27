@@ -1,0 +1,26 @@
+{
+    "profile_name": "techpriest_mk1",
+    "pipeline": [
+        {
+            "block_name": "Bitcrusher",
+            "parameters": {
+                "bit_depth": 8.0
+            }
+        },
+        {
+            "block_name": "Band-Pass Filter",
+            "parameters": {
+                "low_cut": 200.0,
+                "high_cut": 4000.0,
+                "order": 4.0
+            }
+        },
+        {
+            "block_name": "Ring Modulator",
+            "parameters": {
+                "mod_freq": 300.0,
+                "mix": 0.9
+            }
+        }
+    ]
+}

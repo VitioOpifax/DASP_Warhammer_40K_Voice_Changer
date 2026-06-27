@@ -1,0 +1,33 @@
+{
+    "profile_name": "daemon",
+    "pipeline": [
+        {
+            "block_name": "Pitch Shift",
+            "parameters": {
+                "pitch_factor": 0.84
+            }
+        },
+        {
+            "block_name": "Bitcrusher",
+            "parameters": {
+                "bit_depth": 7.0
+            }
+        },
+        {
+            "block_name": "Chorus",
+            "parameters": {
+                "rate": 8.5,
+                "depth_ms": 5.0,
+                "base_delay_ms": 15.0,
+                "mix": 0.65
+            }
+        },
+        {
+            "block_name": "Synthetic Reverb",
+            "parameters": {
+                "rt60": 1.2,
+                "mix": 0.4
+            }
+        }
+    ]
+}

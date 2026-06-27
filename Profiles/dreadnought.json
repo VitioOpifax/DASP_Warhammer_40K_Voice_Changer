@@ -1,0 +1,45 @@
+{
+    "profile_name": "Dreadnought",
+    "pipeline": [
+        {
+            "block_name": "Pitch Shift",
+            "parameters": {
+                "pitch_factor": 0.8
+            }
+        },
+        {
+            "block_name": "Feedback Delay",
+            "parameters": {
+                "delay_ms": 10.0,
+                "feedback": 0.5
+            }
+        },
+        {
+            "block_name": "Feedback Delay",
+            "parameters": {
+                "delay_ms": 10.0,
+                "feedback": 0.5
+            }
+        },
+        {
+            "block_name": "Bitcrusher",
+            "parameters": {
+                "bit_depth": 8.0
+            }
+        },
+        {
+            "block_name": "Notch Filter",
+            "parameters": {
+                "center_freq": 6000.0,
+                "q_factor": 5.0
+            }
+        },
+        {
+            "block_name": "Synthetic Reverb",
+            "parameters": {
+                "rt60": 0.7,
+                "mix": 0.5
+            }
+        }
+    ]
+}
