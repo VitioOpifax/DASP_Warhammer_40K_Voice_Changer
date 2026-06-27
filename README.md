@@ -23,6 +23,11 @@ Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+Launch by:
+```bash
+python3 gui.py
+```
 ---
 
 ## How to Use
