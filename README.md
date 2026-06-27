@@ -24,13 +24,14 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
+---
+
+## How to Use
+
 Launch by:
 ```bash
 python3 gui.py
 ```
----
-
-## How to Use
 
 - First select a input from the gui (make sure that there is a .wav file in the Input folder). You can play the file with the button near the selection menu.
 - Select an already existing profile OR create a new one. After that press "PROCESS AUDIO" button to send the file through the pipeline.
